@@ -22,7 +22,8 @@ class ExploreFragment : Fragment() {
     private var layoutManager: RecyclerView.LayoutManager? = null
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
 

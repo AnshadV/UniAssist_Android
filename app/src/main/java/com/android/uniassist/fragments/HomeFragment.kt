@@ -88,6 +88,12 @@ class HomeFragment : Fragment(), View.OnClickListener { //OnClickListener
         recyclerViewCourses.layoutManager = LinearLayoutManager(activity, LinearLayoutManager.HORIZONTAL, false)
         recyclerViewCourses.adapter = CourseAdapter(universityL)
 
+        recyclerViewCourses2.layoutManager = LinearLayoutManager(activity, LinearLayoutManager.HORIZONTAL, false)
+        recyclerViewCourses2.adapter = CourseAdapter(universityL)
+
+        recyclerViewCourses3.layoutManager = LinearLayoutManager(activity, LinearLayoutManager.HORIZONTAL, false)
+        recyclerViewCourses3.adapter = CourseAdapter(universityL)
+
     }
 
 

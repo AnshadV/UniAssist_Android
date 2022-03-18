@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/drawable/ic_baseline_arrow_right_24.xml" value="0.262" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/drawable/ic_baseline_cloud_download_24.xml" value="0.2115" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/drawable/ic_baseline_cloud_upload_24.xml" value="0.2115" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.2115" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.1" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.1" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/drawable/ic_outline_search_24.xml" value="0.1" />
@@ -13,15 +17,18 @@
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/activity_signup.xml" value="0.2504528985507246" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/dropdown_item.xml" value="0.1" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/file_upload.xml" value="0.4" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/fragment_country_preference.xml" value="0.1" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/fragment_dashboard.xml" value="0.11458333333333333" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/fragment_document.xml" value="0.3055555555555556" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/fragment_explore.xml" value="0.25" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/fragment_onboarding_one.xml" value="0.4" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/fragment_settings.xml" value="0.14375" />
-        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/layout_city.xml" value="0.264" />
-        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/layout_course.xml" value="0.264" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/layout_article.xml" value="0.28085106382978725" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/layout_city.xml" value="0.1" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/layout_course.xml" value="0.1" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/recycle_fragment.xml" value="0.1" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/university_item.xml" value="0.536" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/drawer-with-bottom-navigation-architecture/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
@@ -43,5 +50,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.72" />
+      </ProjectState>
+    </option>
   </component>
 </project>

@@ -37,6 +37,9 @@
         <action
             android:id="@+id/action_profileFragment_to_countryPreferenceFragment"
             app:destination="@id/countryPreferenceFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_documentFragment"
+            app:destination="@id/documentFragment" />
     </fragment>
 
     <fragment
@@ -49,6 +52,11 @@
         android:name="com.android.uniassist.fragments.CountryPreferenceFragment"
         android:label="fragment_country_preference"
         tools:layout="@layout/fragment_country_preference" />
+    <fragment
+        android:id="@+id/documentFragment"
+        android:name="com.android.uniassist.fragments.DocumentFragment"
+        android:label="My Documents"
+        tools:layout="@layout/fragment_document" />
 
 
 </navigation>

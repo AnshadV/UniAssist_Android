@@ -43,6 +43,12 @@ class ProfileFragment : Fragment(), View.OnClickListener {
             navController.navigate(action)
         }
 
+        openDoc.setOnClickListener{
+            val action = ProfileFragmentDirections.actionProfileFragmentToDocumentFragment()
+            navController.navigate(action)
+        }
+
+
         chipGroup = binding.countryChipGroup
     }
 

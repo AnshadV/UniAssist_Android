@@ -7,9 +7,10 @@
     >
 
     <androidx.cardview.widget.CardView
-        android:layout_width="150dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         app:cardElevation="10dp"
+        app:cardCornerRadius="8dp"
         app:cardUseCompatPadding="true"
         >
         <RelativeLayout
@@ -17,6 +18,7 @@
             android:layout_height="wrap_content">
 
             <ImageView
+                android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
@@ -25,11 +27,11 @@
 
             <ImageView
                 android:id="@+id/uniImage"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
-                android:background="@drawable/heid" />
+                android:background="@drawable/pexels_eugene_liashchevskyi_6957866__1_" />
         <TextView
             android:id="@+id/uniName"
             android:layout_width="wrap_content"
