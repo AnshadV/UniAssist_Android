@@ -8,7 +8,9 @@ import android.text.TextUtils
 import android.util.Log
 import android.widget.Toast
 import com.android.uniassist.MainActivity
+import com.android.uniassist.OnboardingActivity
 import com.android.uniassist.R
+import com.android.uniassist.data.SharedPref
 import com.android.uniassist.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -29,6 +31,14 @@ class LoginActivity : AppCompatActivity() {
         auth = Firebase.auth
 
         //check if already logged in
+
+        if(isFirstLaunch()) {
+            startActivity(Intent(this, OnboardingActivity::class.java))
+            finish()
+        }
+
+
+
 
         if(auth.currentUser!=null) {
             val user = auth.currentUser
@@ -63,9 +73,7 @@ class LoginActivity : AppCompatActivity() {
                                     if(user.isEmailVerified) {
                                         val intent = Intent(this, MainActivity::class.java)
                                         intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
-                                        if (user != null) {
-                                            intent.putExtra("user_id", user.uid)
-                                        }
+                                        intent.putExtra("user_id", user.uid)
                                         intent.putExtra("email_id", email)
                                         startActivity(intent)
                                         finish()
@@ -73,8 +81,6 @@ class LoginActivity : AppCompatActivity() {
                                     else{
                                         Toast.makeText(this, "Please verify your email address", Toast.LENGTH_SHORT).show()
                                     }
-                                } else {
-                                    Toast.makeText(this, "Please verify your email address", Toast.LENGTH_SHORT).show()
                                 }
 
                             }
@@ -87,5 +93,8 @@ class LoginActivity : AppCompatActivity() {
                 }
             }
         }
+    }
+    private fun isFirstLaunch() : Boolean {
+        return SharedPref.getInstance(applicationContext).isFirstLaunch()
     }
 }

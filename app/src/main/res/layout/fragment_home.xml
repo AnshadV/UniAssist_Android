@@ -21,20 +21,23 @@
             android:orientation="vertical">
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
                 android:layout_marginTop="6dp"
                 android:layout_marginRight="6dp"
-                android:layout_marginLeft="6dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Where to study abroad?"/>
+                android:text="Where to study abroad?"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
-                android:layout_marginLeft="6dp"
-                android:layout_marginRight="6dp"
+                android:id="@+id/CityListNav"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorAccent"
-                android:text="→ see all program offered in 189 cities"/>
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:text="→ see all program offered in 189 cities"
+                android:textColor="@color/colorAccent" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerViewCities"

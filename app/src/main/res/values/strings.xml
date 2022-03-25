@@ -21,6 +21,23 @@
     <string name="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
 
 
+    <string name="title_onboarding_1">Hundreds of Universities</string>
+    <string name="description_onboarding_1">Find perfect one in that fits you in country you like</string>
+
+    <string name="title_onboarding_2">Personal help</string>
+    <string name="description_onboarding_2">Expert counsellors will answer all your questions</string>
+
+    <string name="title_onboarding_3">Course finder</string>
+    <string name="description_onboarding_3">Find the perfect course with our advances filtering tools</string>
+
+
+    <string name="start">start</string>
+    <string name="skip">Skip</string>
+    <string name="finish">finish</string>
+    <string name="next">next</string>
+    <string name="back">back</string>
+
+
     <string-array name="countries">
         <item>Canada</item>
         <item>United States</item>

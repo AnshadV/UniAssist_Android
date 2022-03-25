@@ -6,4 +6,9 @@
     <color name="primaryTextColor">#ffffff</color>
     <color name="colorAccent">#D81B60</color>
     <color name="black">#000000</color>
+    <color name="md_white_1000">#ffffff</color>
+    <color name="md_grey_900">#212121</color>
+    <color name="light_grey">#ABABAB</color>
+    <color name="dark_grey">#333333</color>
+    <color name="md_blue_100">#BBDEFB</color>
 </resources>

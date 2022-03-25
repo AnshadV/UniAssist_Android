@@ -10,8 +10,14 @@
         android:title="@string/dashboard" />
 
     <item
+        android:id="@+id/UniDeadlinesFragment"
+        android:icon="@drawable/ic_settings"
+        android:title="University Deadlines" />
+
+    <item
         android:id="@+id/settingsFragment"
         android:icon="@drawable/ic_settings"
         android:title="@string/settings" />
+
 
 </menu>

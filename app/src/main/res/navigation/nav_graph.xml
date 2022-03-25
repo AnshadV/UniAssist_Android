@@ -57,6 +57,11 @@
         android:name="com.android.uniassist.fragments.DocumentFragment"
         android:label="My Documents"
         tools:layout="@layout/fragment_document" />
+    <fragment
+        android:id="@+id/uniDeadlinesFragment"
+        android:name="com.android.uniassist.fragments.UniDeadlinesFragment"
+        android:label="fragment_uni_deadlines"
+        tools:layout="@layout/fragment_uni_deadlines" />
 
 
 </navigation>

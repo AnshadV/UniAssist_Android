@@ -1,6 +1,7 @@
 package com.android.uniassist.fragments
 
 
+import android.app.Activity
 import android.app.LauncherActivity
 import android.content.Intent
 import android.os.Bundle
@@ -12,11 +13,8 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavController
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.android.uniassist.CityAdapter
-import com.android.uniassist.CourseAdapter
-import com.android.uniassist.MainActivity
+import com.android.uniassist.*
 
-import com.android.uniassist.R
 import com.android.uniassist.auth.LoginActivity
 import com.android.uniassist.data.City
 import com.android.uniassist.data.Course
@@ -93,6 +91,12 @@ class HomeFragment : Fragment(), View.OnClickListener { //OnClickListener
 
         recyclerViewCourses3.layoutManager = LinearLayoutManager(activity, LinearLayoutManager.HORIZONTAL, false)
         recyclerViewCourses3.adapter = CourseAdapter(universityL)
+
+        CityListNav.setOnClickListener{
+            val intent =
+                Intent(activity, OnboardingActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 
