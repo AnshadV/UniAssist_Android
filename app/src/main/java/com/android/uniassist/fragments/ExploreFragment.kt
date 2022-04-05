@@ -6,12 +6,15 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.RadioButton
+import android.widget.RadioGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 import com.android.uniassist.R
 
 import kotlinx.android.synthetic.main.fragment_explore.*
+import kotlinx.android.synthetic.main.fragment_explore.view.*
 
 /**
  * AccountsFragment
@@ -33,6 +36,22 @@ class ExploreFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        fun onRadioButtonClicked(view: View) {
+            if(view is RadioButton) {
+                val checked = view.isChecked
+
+                when (view.id) {
+                    R.id.isBachelorRadio ->
+                        if (checked) {
+
+                        }
+                    R.id.isMasterRadio ->
+                        if (checked) {
+
+                        }
+                }
+            }
+        }
 
     }
 

@@ -19,42 +19,29 @@
             android:textSize="24sp"
             android:textStyle="bold" />
 
-    <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:overScrollMode="ifContentScrolls"
-        android:padding="5dp">
-
-        <RadioButton
+        <RadioGroup
+            android:id="@+id/RadioGroup1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Bachelor" />
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:overScrollMode="ifContentScrolls"
+            android:padding="5dp">
 
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Master" />
+            <RadioButton
+                android:id="@+id/isBachelorRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bachelor" />
 
-    </RadioGroup>
+            <RadioButton
+                android:id="@+id/isMasterRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Master" />
 
-    <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="5dp">
+        </RadioGroup>
 
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Short Course" />
-
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Language Course" />
-    </RadioGroup>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -66,7 +53,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.1"
-            android:background="@drawable/ic_baseline_add_24" />
+            android:background="@drawable/ic_outline_bookmark_border_24" />
 
         <EditText
             android:layout_width="200dp"
@@ -94,7 +81,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.1"
-            android:background="@drawable/ic_baseline_add_24" />
+            android:background="@drawable/ic_outline_dehaze_24" />
 
         <EditText
             android:layout_width="200dp"
@@ -122,7 +109,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.1"
-            android:background="@drawable/ic_baseline_add_24" />
+            android:background="@drawable/ic_outline_home_24" />
 
         <EditText
             android:layout_width="200dp"
@@ -150,7 +137,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.1"
-            android:background="@drawable/ic_baseline_add_24" />
+            android:background="@drawable/ic_outline_location_on_24" />
 
         <EditText
             android:layout_width="200dp"
