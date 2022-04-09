@@ -7,7 +7,12 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp">
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp">
 
         <ImageView
             android:id="@+id/collegePic"
@@ -24,7 +29,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:scaleType="centerCrop"
             android:src="@drawable/heid"
@@ -37,7 +41,6 @@
             android:id="@+id/university_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
             android:layout_marginTop="10dp"
             android:text="University Name"
             app:layout_constraintEnd_toEndOf="parent"
@@ -49,7 +52,6 @@
             android:id="@+id/course_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
             android:layout_marginTop="10dp"
             android:text="Course Name"
             app:layout_constraintEnd_toEndOf="parent"
@@ -60,7 +62,6 @@
         <View
             android:id="@+id/border1"
             style="@style/Divider"
-            android:layout_marginStart="16dp"
             android:layout_marginTop="12dp"
             android:layout_marginEnd="16dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -71,7 +72,6 @@
             android:id="@+id/degree_type"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
             android:layout_marginTop="6dp"
             android:text="M.Sc."
             app:layout_constraintEnd_toEndOf="parent"
@@ -83,7 +83,6 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
             android:layout_marginTop="2dp"
             android:text="Degree"
             android:textSize="10sp"
@@ -92,31 +91,31 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/degree_type" />
 
-        <TextView
-            android:id="@+id/textView8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="6dp"
-            android:text="English"
-            app:layout_constraintStart_toEndOf="@+id/degree_type"
-            app:layout_constraintStart_toStartOf="@+id/textView11"
-            app:layout_constraintTop_toBottomOf="@id/border1" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="English"
+                app:layout_constraintStart_toEndOf="@+id/degree_type"
+                app:layout_constraintStart_toStartOf="@+id/textView11"
+                app:layout_constraintTop_toBottomOf="@id/border1" />
 
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
-            android:layout_marginEnd="16dp"
-            android:text="Language"
-            android:textSize="10sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toEndOf="@+id/textView3"
-            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="16dp"
+                android:text="Language"
+                android:textSize="10sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/textView3"
+                app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
-        <View
-            android:id="@+id/view"
+            <View
+            android:id="@+id/border2"
             style="@style/Divider"
             android:layout_marginStart="16dp"
             android:layout_marginTop="6dp"
@@ -125,36 +124,76 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="6dp"
-            android:orientation="horizontal"
+        <include
+            android:id="semester"
+            layout="@layout/uni_feature"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/view">
+            app:layout_constraintTop_toBottomOf="@+id/border2" />
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_outline_calendar_month_24" />
+        <include
+            layout="@layout/uni_feature"
+            android:id="durationbox"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/semester" />
+
+            <include
+                layout="@layout/uni_feature"
+                android:id="feesbox"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/durationbox" />
+
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Current Semester" />
+                android:layout_marginTop="15dp"
+                android:text="Start Dates"
+                android:textColor="@color/light_grey" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Current Semester" />
+                android:layout_marginTop="4dp"
+                android:text="Winter Semester: September" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Mode of Admission"
+                android:textColor="@color/light_grey" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Without admission restriction" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Study Mode"
+                android:textColor="@color/light_grey" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="On Campus" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course Link" />
 
         </LinearLayout>
-
-
-
-
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 

@@ -72,10 +72,10 @@ class HomeFragment : Fragment(), View.OnClickListener { //OnClickListener
         viewModel = ViewModelProvider(this).get(HomeViewModel::class.java)
 
         val city = listOf(
-            City(1,"","Berlin"),
-            City(2,"", "Tronto"),
-            City(3,"","Munich"),
-            City(4,"", "Rome"),
+            City(1,R.drawable.city_1,"Berlin"),
+            City(2,R.drawable.city_2, "Tronto"),
+            City(3,R.drawable.city_3,"Munich"),
+            City(4,R.drawable.city_4, "Rome"),
 
 
         )

@@ -18,26 +18,29 @@
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/drawable/onboarding_viewpager_selector_blue.xml" value="0.1" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/activity_login.xml" value="0.2504528985507246" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/activity_main.xml" value="0.1292517006802721" />
-        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/activity_onboarding.xml" value="0.1" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/activity_onboarding.xml" value="0.2" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/activity_signup.xml" value="0.2504528985507246" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/dropdown_item.xml" value="0.1" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/featurebox.xml" value="0.4" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/file_upload.xml" value="0.4" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/fragment_country_preference.xml" value="0.1" />
-        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/fragment_course_details.xml" value="0.4" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/fragment_course_details.xml" value="0.36082474226804123" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/fragment_dashboard.xml" value="0.11458333333333333" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/fragment_document.xml" value="0.3055555555555556" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/fragment_explore.xml" value="0.25" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/fragment_filter_detail.xml" value="0.2" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/fragment_home.xml" value="0.25" />
-        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/fragment_onboarding.xml" value="0.1" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/fragment_onboarding.xml" value="0.4" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/fragment_onboarding_one.xml" value="0.4" />
-        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/fragment_settings.xml" value="0.14375" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/fragment_university_details.xml" value="0.1" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/layout_article.xml" value="0.28085106382978725" />
-        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/layout_city.xml" value="0.1" />
-        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/layout_course.xml" value="0.1" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/layout_city.xml" value="0.152" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/layout_course.xml" value="0.264" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/nav_header.xml" value="0.24479166666666666" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/recycle_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/uni_feature.xml" value="0.4" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/layout/university_item.xml" value="0.536" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/menu/bottom_navigation.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/UniAssist/app/src/main/res/menu/drawer_navigation.xml" value="0.24479166666666666" />
@@ -64,7 +67,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.72" />
+        <option name="scale" value="0.4" />
       </ProjectState>
     </option>
   </component>

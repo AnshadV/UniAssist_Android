@@ -22,6 +22,7 @@ class CityAdapter(val cities : List<City>) : RecyclerView.Adapter<CityAdapter.Ci
         val city = cities[position]
 
         holder.view.cityName.text = city.name
+        holder.view.city_image.setImageResource(city.image)
     }
 
     override fun getItemCount() = cities.size

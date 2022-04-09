@@ -24,6 +24,7 @@ class CourseAdapter(val courses : List<University>) : RecyclerView.Adapter<Cours
 
         holder.view.uniName.text = course.uniName
         holder.view.cityName.text = course.city
+        holder.view.uniImage.setImageResource(course.uniImage)
     }
 
     override fun getItemCount() = courses.size

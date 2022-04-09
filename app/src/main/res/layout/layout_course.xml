@@ -31,7 +31,8 @@
                 android:layout_height="180dp"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
-                android:background="@drawable/pexels_eugene_liashchevskyi_6957866__1_" />
+                android:scaleType="centerCrop"
+                android:src="@drawable/pexels_eugene_liashchevskyi_6957866__1_" />
         <TextView
             android:id="@+id/uniName"
             android:layout_width="wrap_content"

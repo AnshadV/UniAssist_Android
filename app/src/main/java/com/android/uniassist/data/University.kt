@@ -6,6 +6,7 @@ data class University(
     val country: String,
     val city: String,
     val faculties: List<String>,
-    val course: List<Course>
+    val course: List<Course>,
+    val uniImage: Int = 0
 
 )

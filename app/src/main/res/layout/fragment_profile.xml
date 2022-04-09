@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="TextView"
+        android:text="Fiona Reginold"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/floatingActionButton"
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="5dp"
-        android:text="TextView"
+        android:text="Indian"
         app:layout_constraintStart_toEndOf="@+id/floatingActionButton"
         app:layout_constraintTop_toBottomOf="@+id/textName" />
 
@@ -155,7 +155,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="end"
                 android:padding="3dip"
-                android:text="Degree" />
+                android:text="Masters" />
 
 
         </TableRow>
@@ -175,7 +175,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="end"
                 android:padding="3dip"
-                android:text="Degree" />
+                android:text="Fall" />
         </TableRow>
 
         <TableRow
@@ -193,7 +193,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="end"
                 android:padding="3dip"
-                android:text="Degree" />
+                android:text="2023" />
 
         </TableRow>
 

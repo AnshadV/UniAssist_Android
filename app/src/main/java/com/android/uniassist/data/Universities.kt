@@ -1,15 +1,17 @@
 package com.android.uniassist.data
 
 import android.content.res.Resources
+import com.android.uniassist.R
 
 
-    val universityL =  listOf(
+val universityL =  listOf(
         University(
             uniID = 1201,
             uniName = "Uni Bonn",
             country = "Germany",
             city = "Bonn",
             faculties = listOf("Mechanical", "CS"),
+            uniImage = R.drawable.uniimage2,
             course = listOf(
                 Course(
                 courseId = 1233,
@@ -37,10 +39,11 @@ import android.content.res.Resources
         ),
         University(
             uniID = 1201,
-            uniName = "Uni Bonn",
+            uniName = "Uni Passau",
             country = "Germany",
             city = "Bonn",
             faculties = listOf("Mechanical", "CS"),
+            uniImage = R.drawable.uniimage3,
             course = listOf(
                 Course(
                     courseId = 1233,
@@ -68,10 +71,11 @@ import android.content.res.Resources
         ),
         University(
             uniID = 1201,
-            uniName = "Uni Bonn",
+            uniName = "Uni Berlin",
             country = "Germany",
             city = "Bonn",
             faculties = listOf("Mechanical", "CS"),
+            uniImage = R.drawable.uniimage4,
             course = listOf(
                 Course(
                     courseId = 1233,
